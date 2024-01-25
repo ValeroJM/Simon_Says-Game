@@ -1,30 +1,26 @@
 # Foundations for Web Development - Final Capstone (Simon Says)
 
-You've been hired as an intern at *Thinkful Game Studio*, which has decided to create a game, *Simon Says*. You will be applying all the HTML, CSS, and JavaScript skills you've learned in this course to help them build this game.
-
 *Simon Says* is a game that displays a series of tones and lights in random order and requires a player repeat the sequence from memory. The game typically displays four colored pads. Each pad produces a particular tone when it is pressed. The tone helps the player in remembering the sequence. With each additional round, the number of pads in the sequence increases by one. Once the player makes a mistake, the game ends and resets.
 
-You will build a web-based *Simon Says* game that you can play solo. The game designers have provided the source code that needs to be completed. You are encouraged to come up with an original visual design for this game or even change the theme. 
+This is how the game looks like 
 
 ![Simon Says](./assets/simon-says.gif)
 
 You can view a video of the working app [here](https://vimeo.com/699549431)
 
-## Steps to complete
-
-To complete this project, you must do the following:
-
-- Write code that passes all of the requirements in the project rubric, and submit your GitHub link to the Thinkful team.
-
 ## Installation
 
-First, fork and clone the [starter code](https://github.com/Thinkful-Ed/js-dev-final-capstone-starter-simon-says) to your local machine. If you need a refresher on how to fork and clone a project, feel free to reference the *Forking and Cloning* lesson in the *Git & Github* module.
+I cloned the [starter code](https://github.com/Thinkful-Ed/js-dev-final-capstone-starter-simon-says) to my local machine. 
 
-From your terminal, navigate to the project directory.
+In the root of your project, run `npm install` to install the project dependencies.
 
-Then open the project folder with the VSCode editor, and open the `index.html` file with VSCode Live Server. If you need a refresher on how to use VSCode, feel free to reference the *Visual Studio Code* lesson in the *Developer Workflow* module.
-
-In the root of your project, run `npm install` to install the project dependencies. 
+**I updated the package.json with the latest npm package version that allowed me to run Jest test. The majority of the originals set in the github repo that I fork has deprecate versions**
+Jest: 29.7.0 version
+Jest-puppeteer: 9.0.2 version
+Npm-run-all: 4.1.5 version
+Parcel: 2.11.0 version - Version 1 was call pacel-puppeteer and it is deprecated
+Puppeteer: 21.7.0 version
+It is important also to install a ChromeDriver so Jest & Puppeteer can run
 
 Test are split up by user story. You can run the tests for a given user story by running:
 
@@ -38,10 +34,6 @@ Have a look at the following examples:
 - `npm run test:3` runs all the tests for user story 3
 - `npm run test:4` runs all the tests for user story 4
 - `npm run test:5` runs all the tests for user story 5
-
-**Note:** You can use the tests as a guide during the implementation of the game but they do **not** have to all pass before you can submit your work, as long as your project meets the general requirements specified in the project rubric.
-
-When you're ready, remember that you will need to submit a Github link of your project to the Thinkful team. 
 
 # Existing Files
 
@@ -431,3 +423,9 @@ General Code Organization:
 - Start by completing the required HTML elements and then proceed to work on the javascript functions. CSS changes can be made last. Follow the order of the user stories.
 - If you get stuck, take a careful look at the resources that we provide. If you are still stuck, ask a friend or a mentor for help.
 - Read the user stories and tests carefully.
+
+# Final Comments
+This experience was very valuable for me where I could put into practice all I have learned.
+
+- All the Jest tests successfully pass
+- All the different commits can be found in this link: [Commits Repo](https://github.com/ValeroJM/js-dev-final-capstone-starter-simon-says)
