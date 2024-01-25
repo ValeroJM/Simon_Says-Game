@@ -1,4 +1,4 @@
-# Foundations for Web Development - Final Capstone (Simon Says)
+# Simon Says
 
 *Simon Says* is a game that displays a series of tones and lights in random order and requires a player repeat the sequence from memory. The game typically displays four colored pads. Each pad produces a particular tone when it is pressed. The tone helps the player in remembering the sequence. With each additional round, the number of pads in the sequence increases by one. Once the player makes a mistake, the game ends and resets.
 
@@ -428,4 +428,4 @@ General Code Organization:
 This experience was very valuable for me where I could put into practice all I have learned.
 
 - All the Jest tests successfully pass
-- All the different commits can be found in this link: [Commits Repo](https://github.com/ValeroJM/js-dev-final-capstone-starter-simon-says)
+- All the different commits can be found in this link: [Original Repo with my commits](https://github.com/ValeroJM/js-dev-final-capstone-starter-simon-says)
